@@ -7,7 +7,7 @@ body {
 	background-color: #222222;
 }
 
-a { color: #f55b1f; }
+a { color: #f55b1f;font-family: 黑体; }
 a:hover, a:focus { color: #CCFF66; }
 
 .templatemo_logo {
@@ -65,7 +65,7 @@ a:hover, a:focus { color: #CCFF66; }
 .img_left {	float: left; margin-right: 20px; margin-bottom: 15px; }
 
 h1 { text-align: center; color: #e13916; }
-h4 { color: #FF961F; }
+h4 { color: #FF961F; font-family: 黑体;}
 
 li { color: white; }
 li, input { font-family: Arial, sans-serif; }
@@ -78,7 +78,7 @@ nav {
 	margin-bottom: 20px; 
 }
 
-p {  color: #FFF; font-family: Arial, sans-serif; }
+p {  color: #FFF; font-family: 黑体,Arial, sans-serif;font-size: 12px; }
 iframe, object, embed { width: 100%; border: none; margin-bottom: 20px; }
 
 hr { 
@@ -131,7 +131,7 @@ article { margin-top: 15px; margin-bottom: 15px; }
 #right_container .right_container_title:hover {text-decoration:none; color:#f55b1f;}
 
 #right_container h2 { color: #f55b1f; }
-#right_container h3 { color: #f55b1f; }
+#right_container h3 { color: #f55b1f;font-family: 黑体; }
 
 #templatemo_footer { color: #FFFFFF; font-size: 0.8em; text-align: center; font-family: Arial, sans-serif; }
 

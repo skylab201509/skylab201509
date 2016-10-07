@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>location</title>
+    <title>skylab location</title>
     <style>
-        body { margin: 0; font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif"; min-height: 320px; min-width: 800px; }
-        .my-map { margin: 0 auto; width: 825px; height: 319px; }
+        body { margin: 0; font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif"; min-height: 960px; min-width: 600px; }
+        .my-map { margin: 0 auto; width: 820px; height: 319.666666px; }
         .my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
         .my-map .icon-cir { height: 31px; width: 28px; }
         .my-map .icon-cir-red { background-position: -11px -5px; }
@@ -22,8 +22,8 @@
 <script>
     !function(){
         var infoWindow, map, level = 16,
-                center = {lng: 123.413599, lat: 41.911093},
-                features = [{type: "Marker", name: "skylab", desc: "SYNU-Software College-Skylab", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 123.413517, lat: 41.910811}}];
+                center = {lng: 123.413431, lat: 41.910952},
+                features = [{type: "Marker", name: "Skylab", desc: "SYNU-Software College", color: "red", icon: "cir", offset: {x: -9, y: -31}, lnglat: {lng: 123.413431, lat: 41.910952}}];
 
         function loadFeatures(){
             for(var feature, data, i = 0, len = features.length, j, jl, path; i < len; i++){
@@ -65,7 +65,6 @@
         map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level});
         new AMap.TileLayer.Satellite({map: map, zIndex: 1});
         new AMap.TileLayer.RoadNet({map: map, zIndex: 2});
-        new AMap.Buildings({map: map, zIndex: 3});
         loadFeatures();
 
         map.on('complete', function(){
