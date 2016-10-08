@@ -16,7 +16,7 @@ a:hover, a:focus { color: #CCFF66; }
 }
 
 .skylabIndex {
-  	background: url(images/background01.jpg) no-repeat center center fixed;
+  	background: url(images/indexbg.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -25,7 +25,7 @@ a:hover, a:focus { color: #CCFF66; }
 }
 
 .skylabAbout {
-	background: url(images/background02.jpg) no-repeat center center fixed;
+	background: url(images/aboutbg.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -34,7 +34,7 @@ a:hover, a:focus { color: #CCFF66; }
 }
 
 .skylabMV {
-	background: url(images/templatemo_flower.jpg) no-repeat center center fixed;
+	background: url(images/MVbg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -43,7 +43,7 @@ a:hover, a:focus { color: #CCFF66; }
 }
 
 .skylabMember {
-  	background: url(images/templatemo_padaut.jpg) no-repeat center center fixed; 
+  	background: url(images/memberbg.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -52,7 +52,7 @@ a:hover, a:focus { color: #CCFF66; }
 }
 
 .skylabContact {
-	background: url(images/templatemo_garden.jpg) no-repeat center center fixed;
+	background: url(images/contactbg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
