@@ -15,7 +15,7 @@ a:hover, a:focus { color: #CCFF66; }
 	text-align: center;
 }
 
-.templatemo_juice_bg {
+.skylabIndex {
   	background: url(images/background01.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -24,16 +24,7 @@ a:hover, a:focus { color: #CCFF66; }
   	overflow-x: hidden;
 }
 
-.templatemo_flower_1 {
-	background: url(images/templatemo_flower.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	overflow-x: hidden;
-}
-
-.templatemo_flower_2 {
+.skylabAbout {
 	background: url(images/background02.jpg) no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -42,8 +33,17 @@ a:hover, a:focus { color: #CCFF66; }
   	overflow-x: hidden;
 }
 
-.templatemo_garden_bg {
-  	background: url(images/templatemo_garden.jpg) no-repeat center center fixed; 
+.skylabMV {
+	background: url(images/templatemo_flower.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+.skylabMember {
+  	background: url(images/templatemo_padaut.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -51,13 +51,13 @@ a:hover, a:focus { color: #CCFF66; }
   	overflow-x: hidden;
 }
 
-.templatemo_padaut_bg {
-  	background: url(images/templatemo_padaut.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	overflow-x: hidden;
+.skylabContact {
+	background: url(images/templatemo_garden.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
 }
 
 .flexslider { width: 99%; }
